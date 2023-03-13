@@ -41,7 +41,7 @@
 
 .offcanvas.show {
     visibility: visible;
-    width: 100% !important;
+    width: 100%!important;
     background-color: #6723db;
     color: white;
 }
@@ -932,6 +932,19 @@ body {
 
     }
 }
+@media (max-width: 599.98px) {
+    .fl-sma {
+        font-size: 8px;
+
+    }
+}
+@media (min-width: 300px) and (max-width: 720.98px) {
+    .ig-sm {
+        width: 20px;
+
+    }
+}
+
 @media (max-width: 727.98px) {
     .bn-sma {
   
@@ -939,7 +952,6 @@ padding: 3px 5px;
 
     }
 }
-
 
 
 
